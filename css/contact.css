@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer Section */
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(25, 25, 25, 0.52),
+      rgba(50, 50, 50, 0.73)
+    ),
+    url('../images/pinoyresto.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  padding: 50px 0;
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+  border-radius: 20px;
+  font-family: Poppins, sans-serif;
+  width: 80%;
+}
+.left-section {
+  display: flex;
+
+  padding: 20px;
+  flex-direction: column;
+}
+.left-section h2 {
+  margin-bottom: 20px;
+}
+.left-section div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  line-height: 20px;
+}
+.left-section div i {
+  margin-bottom: 10px;
+}
+.left-section div p {
+  margin-left: 12px;
+}
+.left-section div p a {
+  text-decoration: none;
+  color: white;
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  width: 40%;
+}
+.right-section h2 {
+  text-align: center;
+  padding: 20px;
+}
+.right-section h4 {
+  text-align: center;
+  color: grey;
+  padding: 10px;
+}
+form {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  padding: 10px 0;
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
+}
+form input {
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  padding: 5px;
+  font-family: Poppins, sans-serif;
+}
+form textarea {
+  font-family: Poppins, sans-serif;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+form input[type='submit'] {
+  border: none;
+  background-color: #36c5f0;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+form input[type='submit']:hover {
+  background-color: white;
+  color: #36c5f0;
+  border: 2px solid #36c5f0;
+}
+/* @media Contact */
+
+@media (min-width: 1025px) {
+  .contact-section {
+    margin-top: 50px;
+  }
+}
+@media all and (max-width: 1024px) {
+  .contact-section {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    margin-top: 80px;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .left-section {
+    width: 30%;
+  }
+  .right-section {
+    width: 50%;
+  }
+}
+/* Tablet Size */
+@media all and (max-width: 768px) {
+  .left-section {
+    width: 90%;
+  }
+  .right-section {
+    width: 90%;
+  }
+}
+/* Mobile Size - L */
+@media all and (max-width: 425px) {
+  /* Service Section */
+  .service-section {
+    padding: 10px;
+  }
+  .service-card {
+    width: 100%;
+  }
+  .service-card h4 {
+    font-size: 15px;
+  }
+  .service-card p {
+    font-size: 12px;
+  }
+
+  /* Contact Section */
+  .left-section {
+    width: 90%;
+  }
+  .right-section {
+    width: 90%;
+  }
+}
+/* Mobile Size- S */
+@media all and (max-width: 375px) {
+  /* Contact Section */
+  .contact-section {
+    padding: 0;
+  }
+
+  .left-section {
+    width: 90%;
+  }
+  .left-section h2,
+  .left-section i,
+  .left-section p {
+    font-size: 12px;
+  }
+
+  .right-section {
+    width: 90%;
+  }
+  .right-section h4 {
+    font-size: 15px;
+  }
+  .right-section h2 {
+    font-size: 20px;
+  }
+  .right-section label,
+  .right-section input {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="stylesheet" href="./css/social.css" />
+    <script
+      src="https://kit.fontawesome.com/6c43f4ca38.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <title>Cooking Ina Mo!</title>
+  </head>
+  <body>
+    <!-- Nav Section Start -->
+    <nav>
+      <div class="logo">
+        <a href="./index.html"
+          ><img src="./images/cookinglogo.jpeg" alt=""
+        /></a>
+        <h1>
+          <span class="blue">Coo</span
+          ><span class="red">King Ina Mo!</span>
+        </h1>
+      </div>
+      <div class="nav-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul id="nav-links">
+        <li>
+          <a href="./index.html"
+            ><iconify-icon icon="bxs:home"></iconify-icon>
+            Home</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <iconify-icon
+              icon="icon-park-twotone:cook"
+            ></iconify-icon
+            >Recipes</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><iconify-icon
+              icon="clarity:details-line"
+            ></iconify-icon
+            >About</a
+          >
+        </li>
+        <li class="contact">
+          <a href="./contact.html" class="nav-active"
+            ><iconify-icon
+              icon="akar-icons:phone"
+            ></iconify-icon
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div id="contact" class="contact-section">
+      <div class="contact-container">
+        <div class="left-section animate-left">
+          <h2>Contact Us</h2>
+          <div class="address">
+            <i class="fa-solid fa-location-dot">Address</i>
+
+            <p>
+              Pinagbuhatan, Pasig City, Metro Manila,
+              Philippines
+            </p>
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone"> Phone</i>
+            <p>+639205010266</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"> Email</i>
+            <p>mjestacioiii@gmail.com</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-globe"> Website</i>
+            <p>
+              <a
+                href="https://mjestacio.github.io/MJEWebsite/"
+                target="_blank"
+              >
+                https://mjestacio.github.io/MJEWebsite/</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="right-section animate-right">
+          <h4>Let's Connect</h4>
+          <h2>Get in touch</h2>
+          <form
+            action="https://formsubmit.co/mjestacioiii@gmail.com"
+            method="POST"
+            target="_blank"
+          >
+            <label for="name"> Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <label for="email"> Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <label for="subject"> Subject</label>
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="Subject"
+              required
+            />
+            <label for="Message"> Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message. . ."
+              required
+            ></textarea>
+            <input
+              type="submit"
+              class="submit"
+              name="submit"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <h3>©2022 - CooKing Ina Mo!</h3>
+      <div class="social-bar">
+        <div class="social-box">
+          <iconify-icon
+            class="fb-icon"
+            icon="akar-icons:facebook-fill"
+          ></iconify-icon>
+        </div>
+        <div class="social-box">
+          <iconify-icon
+            class="git-icon"
+            icon="akar-icons:github-fill"
+          ></iconify-icon>
+        </div>
+        <div class="social-box">
+          <iconify-icon
+            class="linkedin-icon"
+            icon="bi:linkedin"
+          ></iconify-icon>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
