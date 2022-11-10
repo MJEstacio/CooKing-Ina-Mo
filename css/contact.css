@@ -1,7 +1,7 @@
 /* Contact Section */
 .contact-section {
   display: flex;
-  height: 100vh;
+
   background-image: linear-gradient(
       to bottom,
       rgba(25, 25, 25, 0.52),
@@ -21,11 +21,10 @@
   color: white;
   border-radius: 20px;
   font-family: Poppins, sans-serif;
-  width: 80%;
+  width: 100%;
 }
 .left-section {
   display: flex;
-
   padding: 20px;
   flex-direction: column;
 }
@@ -108,9 +107,6 @@ form input[type='submit']:hover {
 /* @media Contact */
 
 @media (min-width: 1025px) {
-  .contact-section {
-    margin-top: 50px;
-  }
 }
 @media all and (max-width: 1024px) {
   .contact-section {
@@ -118,7 +114,6 @@ form input[type='submit']:hover {
     align-items: center;
     padding: 0;
     width: 100%;
-    margin-top: 80px;
   }
   .contact-container {
     width: 100%;
