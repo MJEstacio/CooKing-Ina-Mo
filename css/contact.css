@@ -1,20 +1,7 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-}
-
-body {
-  font-family: Poppins, sans-serif;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Footer Section */
-
 /* Contact Section */
 .contact-section {
   display: flex;
+  height: 100vh;
   background-image: linear-gradient(
       to bottom,
       rgba(25, 25, 25, 0.52),
