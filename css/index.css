@@ -9,7 +9,15 @@ body {
   display: flex;
   flex-direction: column;
 }
-/* Navigation Section */
+/* Hero Section  */
+
+.hero-section h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+}
 
 /* Image Slider */
 .image-container {
@@ -260,7 +268,8 @@ body {
   padding: 20px;
   font-size: 50px;
   font-family: 'Permanent Marker', cursive;
-  color: black;
+  color: white;
+  background-color: black;
 }
 .about-section {
   display: flex;
