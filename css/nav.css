@@ -15,7 +15,8 @@ nav {
   align-items: center;
   width: 100vw;
   padding: 10px 30px;
-  position: fixed;
+  top: 0;
+  position: sticky;
   background-color: azure;
   border-bottom: 2px solid grey;
   z-index: 1000;
@@ -82,7 +83,7 @@ nav ul li a:after {
   height: 3px;
   width: 0;
   left: 0;
-  transition: 0.5s;
+  transition: 0.8s;
   bottom: -5px;
 }
 
